@@ -1,0 +1,363 @@
+/*make sure you maintain a clear separation between the library code and your code.*/
+
+/*----------FONTS-----*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*-------------------------------Colors*/
+
+/*--------------------------------------navbar*/
+
+body {
+    padding-top: 40px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 100%;
+    background-color: #2098d1;
+}
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.sr-only icon-bar {
+    color: #FFFFFF;
+}
+
+.navbar {
+    margin-bottom: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: #2098d1;
+    border: 0;
+    border-radius: 0;
+}
+
+.navbar-header {
+    background-color: #2098d1;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+.navbar .navbar-brand {
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+.navbar-brand-sm {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+}
+
+.navbar .navbar-brand:hover {
+    transition: ease-in-out 0.6s;
+    font-size: 30px;
+    -ms-transform: hvr-sweep-to-bottom;
+    -webkit-transform: hvr-sweep-to-bottom;
+    -moz-transform: hvr-sweep-to-bottom;
+    -o-transform: hvr-sweep-to-bottom;
+    transform: hvr-sweep-to-bottom;
+    color: #FFFFFF;
+}
+
+.navbar a {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.nav li a {
+    display: block;
+    padding: 10px 53px;
+}
+
+.navbar ul {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.navbar-default .navbar-nav a {
+    color: #FFFFFF;
+
+}
+
+.navbar .navbar-brand {
+    color: #ffffff;
+    font-size: 40px;
+    background-color: #2098d1;
+}
+
+.navbar-brand hidden-sm {
+    font-size: 25px;
+    background: transparent;
+}
+
+.navbar-header {
+    background-color: #2098d1;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    color: #ffffff;
+    background: transparent;
+}
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+    color: white;
+}
+
+.navbar-btn {
+    border: 0;
+    border-radius: 16px;
+    width: 100px;
+    background-color: #2098d1;
+    color: #FFFFFF;
+}
+
+.navbar-btn:hover {
+    background-color: #075479;
+    border-color: #075479;
+    color: #FFFFFF;
+}
+
+.options {
+    color: #2098d1;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    padding: 5px 8px 0 5px;
+    margin: 0 10px;
+}
+
+.menu-1 {
+    transition: 0.5s;
+}
+
+.menu-1:hover {
+    -ms-transform: rotate(-5deg);
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+    color: white;
+    transition: 0.5s;
+}
+
+.menu-2 {
+    transition: 0.5s;
+}
+
+.menu-2:hover {
+    -ms-transform: hvr-sweep-to-bottom;
+    -webkit-transform: hvr-sweep-to-bottom;
+    -moz-transform: hvr-sweep-to-bottom;
+    -o-transform: hvr-sweep-to-bottom;
+    transform: hvr-sweep-to-bottom;
+    color: white;
+    transition: 0.5s;
+}
+
+.menu-3 {
+    transition: 0.5s;
+}
+
+.menu-3:hover {
+    -ms-transform: hvr-sweep-to-bottom;
+    -webkit-transform: hvr-sweep-to-bottom;
+    -moz-transform: hvr-sweep-to-bottom;
+    -o-transform: hvr-sweep-to-bottom;
+    transform: hvr-sweep-to-bottom;
+    color: white;
+    transition: 0.5s;
+}
+
+.menu-4 {
+    transition: 0.5s;
+}
+
+.menu-4:hover {
+    -ms-transform: hvr-sweep-to-bottom;
+    -webkit-transform: hvr-sweep-to-bottom;
+    -moz-transform: hvr-sweep-to-bottom;
+    -o-transform: hvr-sweep-to-bottom;
+    transform: hvr-sweep-to-bottom;
+    color: white;
+    transition: 0.5s;
+}
+
+.menu-5 {
+    transition: 0.5s;
+}
+
+.menu-5:hover {
+    -ms-transform: hvr-sweep-to-bottom;
+    -webkit-transform: hvr-sweep-to-bottom;
+    -moz-transform: hvr-sweep-to-bottom;
+    -o-transform: hvr-sweep-to-bottom;
+    transform: hvr-sweep-to-bottom;
+    color: white;
+    transition: 0.5s;
+}
+
+.menu-6 {
+    transition: 0.5s;
+}
+
+.menu-6:hover {
+    -ms-transform: hvr-sweep-to-bottom;
+    -webkit-transform: hvr-sweep-to-bottom;
+    -moz-transform: hvr-sweep-to-bottom;
+    -o-transform: hvr-sweep-to-bottom;
+    transform: hvr-sweep-to-bottom;
+    color: white;
+    transition: 0.5s;
+}
+
+.below-navbar {
+    margin-top: 60px;
+}
+
+/*--------------------------------------Body */
+
+.vote-section {
+    margin: 0 auto;
+}
+
+/*-----------------------Special Paddings/Margins/Text*/
+
+/*--------------------------------------------Heading*/
+
+.container-fluid {
+    background-color: #2098d1;
+    margin: 0;
+    padding: 0px 400px;
+}
+
+
+
+
+
+/*-------------------------------BUTTONS-BLOCK_DIVIDERS*/
+
+.btn-danger {
+    color: #fff;
+    background-color: red;
+    border-color: red;
+}
+
+/*---------------------------------HOVER*/
+
+/*----------------------------------Footer*/
+
+.social-media-links {
+    font-size: 30px;
+    margin-left: 25px;
+    text-align: center;
+    margin-right: 25px;
+    background-color: yellow;
+    border-color: yellow;
+}
+
+.footer {
+    background-color: #D3D3D3;
+    color: #000000;
+    bottom: -1;
+    width: 100%;
+    text-align: center;
+    min-height: 10vh;
+}
+
+
+
+/*-------------------------------HOME-PAGE*/
+
+.callout-container {
+    height: 100vh;
+
+    background: url("../images/yellowbackground.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 700px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+
+.vote-section {
+    margin: 40px;
+}
+
+/*-------------------------------THE-BAND*/
+
+/*-------------------------------TRACKS*/
+
+#tracks {
+    background-color: #2098d1;
+    color: #FFFFFF;
+    padding: 15px;
+    text-align: center;
+}
+
+/*-------------------------------TOUR-DATES*/
+
+.callout-container2 {
+    min-height: 80vh;
+    font-family: 'Roboto', sans-serif;
+    background: url("/assets/cover3.jpg") no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 15px;
+    background-color: #2098d1;
+
+    /*-------------------------------BOOKINGS*/
+    /*-------------------------------GALLERY*/
+    /*-------------------------------VOTE*/
+    /*-------------------------------BUY-TICKETS*/
+    /*---------------------------------JUMBOTRAN*/
+    jumbotron text-center {
+        background-color: orange;
+    }
+
+    .callout jumbotron text-center {
+        background: url("../images/cover3.jpg") font-size: 30px;
+    }
+
+    .block-divider--black {
+        background-color: black;
+        font-weight: 200;
+        width: 45%;
+    }
+    /*---------------------------------Media Queries*/
+    .footer {
+        min-height: 10vh;
+        bottom: -1;
+        margin-bottom: 0;
+        padding-top: 30px;
+        margin-top: 10px;
+    }
