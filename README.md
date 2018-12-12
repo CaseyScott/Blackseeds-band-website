@@ -5,8 +5,8 @@ explain what was kept and how it was changed to fit your need. A project submitt
 
 
 
-The Beatles website
-The band is a 1960’s rock band and have around 50 years experience of performing live at numerous events around the world. 
+The Black Seeds website
+The Black Seeds are a musical group rooted in reggae from Wellington, New Zealand. With 20 years experience of performing live at numerous events. 
 This website showcase's their music and publicise's their availability to proform at events such as Weddings and Christmas parties
 on the site shows Band members photos, video clip of proformance and audio clips of popular tracks.
 

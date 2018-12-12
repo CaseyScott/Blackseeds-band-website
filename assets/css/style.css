@@ -16,7 +16,7 @@ body {
     overflow-y: scroll;
     overflow-x: hidden;
     width: 100%;
-    background-color: #2098d1;
+    background-color: #adaa2f;
 }
 
 .row {
@@ -35,13 +35,13 @@ body {
     left: 0;
     width: 100%;
     z-index: 1;
-    background-color: #2098d1;
+    background-color: #adaa2f;
     border: 0;
     border-radius: 0;
 }
 
 .navbar-header {
-    background-color: #2098d1;
+    background-color: #adaa2f;
     color: #FFFFFF;
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
@@ -93,7 +93,7 @@ body {
 .navbar .navbar-brand {
     color: #ffffff;
     font-size: 40px;
-    background-color: #2098d1;
+    background-color: #adaa2f;
 }
 
 .navbar-brand hidden-sm {
@@ -102,7 +102,7 @@ body {
 }
 
 .navbar-header {
-    background-color: #2098d1;
+    background-color: #adaa2f;
     color: #FFFFFF;
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
@@ -117,114 +117,30 @@ body {
 
 .navbar-default .navbar-nav>li>a:focus,
 .navbar-default .navbar-nav>li>a:hover {
-    color: white;
+    color: #ffffff;
 }
 
 .navbar-btn {
     border: 0;
     border-radius: 16px;
     width: 100px;
-    background-color: #2098d1;
+    background-color: #adaa2f;
     color: #FFFFFF;
 }
 
 .navbar-btn:hover {
-    background-color: #075479;
-    border-color: #075479;
+    background-color: #fffc65;
+    border-color: #fffc65;
     color: #FFFFFF;
 }
 
 .options {
-    color: #2098d1;
+    color: #adaa2f;
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
     padding: 5px 8px 0 5px;
     margin: 0 10px;
-}
-
-.menu-1 {
-    transition: 0.5s;
-}
-
-.menu-1:hover {
-    -ms-transform: rotate(-5deg);
-    -webkit-transform: rotate(-5deg);
-    -moz-transform: rotate(-5deg);
-    -o-transform: rotate(-5deg);
-    transform: rotate(-5deg);
-    color: white;
-    transition: 0.5s;
-}
-
-.menu-2 {
-    transition: 0.5s;
-}
-
-.menu-2:hover {
-    -ms-transform: hvr-sweep-to-bottom;
-    -webkit-transform: hvr-sweep-to-bottom;
-    -moz-transform: hvr-sweep-to-bottom;
-    -o-transform: hvr-sweep-to-bottom;
-    transform: hvr-sweep-to-bottom;
-    color: white;
-    transition: 0.5s;
-}
-
-.menu-3 {
-    transition: 0.5s;
-}
-
-.menu-3:hover {
-    -ms-transform: hvr-sweep-to-bottom;
-    -webkit-transform: hvr-sweep-to-bottom;
-    -moz-transform: hvr-sweep-to-bottom;
-    -o-transform: hvr-sweep-to-bottom;
-    transform: hvr-sweep-to-bottom;
-    color: white;
-    transition: 0.5s;
-}
-
-.menu-4 {
-    transition: 0.5s;
-}
-
-.menu-4:hover {
-    -ms-transform: hvr-sweep-to-bottom;
-    -webkit-transform: hvr-sweep-to-bottom;
-    -moz-transform: hvr-sweep-to-bottom;
-    -o-transform: hvr-sweep-to-bottom;
-    transform: hvr-sweep-to-bottom;
-    color: white;
-    transition: 0.5s;
-}
-
-.menu-5 {
-    transition: 0.5s;
-}
-
-.menu-5:hover {
-    -ms-transform: hvr-sweep-to-bottom;
-    -webkit-transform: hvr-sweep-to-bottom;
-    -moz-transform: hvr-sweep-to-bottom;
-    -o-transform: hvr-sweep-to-bottom;
-    transform: hvr-sweep-to-bottom;
-    color: white;
-    transition: 0.5s;
-}
-
-.menu-6 {
-    transition: 0.5s;
-}
-
-.menu-6:hover {
-    -ms-transform: hvr-sweep-to-bottom;
-    -webkit-transform: hvr-sweep-to-bottom;
-    -moz-transform: hvr-sweep-to-bottom;
-    -o-transform: hvr-sweep-to-bottom;
-    transform: hvr-sweep-to-bottom;
-    color: white;
-    transition: 0.5s;
 }
 
 .below-navbar {
@@ -242,7 +158,7 @@ body {
 /*--------------------------------------------Heading*/
 
 .container-fluid {
-    background-color: #2098d1;
+    background-color: #adaa2f;
     margin: 0;
     padding: 0px 400px;
 }
@@ -260,7 +176,29 @@ body {
 }
 
 /*---------------------------------HOVER*/
+/* grow */
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+    -ms-transform: hvr-grow;
+    -webkit-transform: hvr-grow;
+    -moz-transform: hvr-grow;
+    -o-transform: hvr-grow;
+    color: #fffc65;
+    transition: 0.5s;
+}
 
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
+}
 /*----------------------------------Footer*/
 
 .social-media-links {
@@ -292,7 +230,7 @@ body {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: 700px;
+    background-size: 800px;
 
     display: flex;
     align-items: center;
