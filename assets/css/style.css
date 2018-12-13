@@ -11,13 +11,7 @@ body {
 
 /*--------------------------------------navbar*/
 
-body {
-    padding-top: 40px;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    width: 100%;
-    background-color: #adaa2f;
-}
+
 
 .row {
     margin-right: 0;
@@ -35,13 +29,13 @@ body {
     left: 0;
     width: 100%;
     z-index: 1;
-    background-color: #adaa2f;
+    background-color: #fffc64;
     border: 0;
     border-radius: 0;
 }
 
 .navbar-header {
-    background-color: #adaa2f;
+    background-color: #fffc64;
     color: #FFFFFF;
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
@@ -82,18 +76,18 @@ body {
 
 .navbar ul {
     text-align: center;
-    color: #FFFFFF;
+    color: #000000;
 }
 
 .navbar-default .navbar-nav a {
-    color: #FFFFFF;
+    color: #000000;
 
 }
 
 .navbar .navbar-brand {
-    color: #ffffff;
+    color: #000000;
     font-size: 40px;
-    background-color: #adaa2f;
+    background-color: #fffc64;
 }
 
 .navbar-brand hidden-sm {
@@ -102,8 +96,8 @@ body {
 }
 
 .navbar-header {
-    background-color: #adaa2f;
-    color: #FFFFFF;
+    background-color: #fffc64;
+    color: #000000;
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
 }
@@ -111,7 +105,7 @@ body {
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-nav>.active>a:hover {
-    color: #ffffff;
+    color: #000000;
     background: transparent;
 }
 
@@ -124,7 +118,7 @@ body {
     border: 0;
     border-radius: 16px;
     width: 100px;
-    background-color: #adaa2f;
+    background-color: #fffc64;
     color: #FFFFFF;
 }
 
@@ -135,7 +129,7 @@ body {
 }
 
 .options {
-    color: #adaa2f;
+    color: #fffc64;
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
@@ -149,16 +143,37 @@ body {
 
 /*--------------------------------------Body */
 
-.vote-section {
-    margin: 0 auto;
+
+.callout-container {
+    height: 100vh;
+
+    background: url("../images/logo-1.png") no-repeat center center fixed;
+    -webkit-background-size: 800px;
+    -moz-background-size: 800px;
+    -o-background-size: 800px;
+    background-size: 800px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
+
+body {
+    padding-top: 40px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 100%;
+    background-color: #fffc64;
+}
+
 
 /*-----------------------Special Paddings/Margins/Text*/
 
 /*--------------------------------------------Heading*/
 
 .container-fluid {
-    background-color: #adaa2f;
+    background-color: #fffc64;
     margin: 0;
     padding: 0px 400px;
 }
@@ -167,7 +182,7 @@ body {
 
 
 
-/*-------------------------------BUTTONS-BLOCK_DIVIDERS*/
+/*-------------------------------FONTS,BUTTONS-BLOCK_DIVIDERS*/
 
 .btn-danger {
     color: #fff;
@@ -175,8 +190,22 @@ body {
     border-color: red;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    padding-left: 5px;
+    padding-right: 5px;
+    }
+
+
 /*---------------------------------HOVER*/
+
 /* grow */
+
 .hvr-grow {
     display: inline-block;
     vertical-align: middle;
@@ -190,7 +219,7 @@ body {
     -webkit-transform: hvr-grow;
     -moz-transform: hvr-grow;
     -o-transform: hvr-grow;
-    color: #fffc65;
+    color: #fffc64;
     transition: 0.5s;
 }
 
@@ -199,13 +228,14 @@ body {
 .hvr-grow:active {
     transform: scale(1.1);
 }
+
 /*----------------------------------Footer*/
 
 .social-media-links {
     font-size: 30px;
-    margin-left: 25px;
+    margin-left: 15px;
     text-align: center;
-    margin-right: 25px;
+    margin-right: 15px;
     background-color: yellow;
     border-color: yellow;
 }
@@ -223,29 +253,49 @@ body {
 
 /*-------------------------------HOME-PAGE*/
 
-.callout-container {
-    height: 100vh;
 
-    background: url("../images/yellowbackground.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+
+/*-------------------------------THE-BAND*/
+.callout-container1 {
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    background: url("../images/8members.png") no-repeat center;
+    -webkit-background-size: 800px;
+    -moz-background-size: 800px;
+    -o-background-size: 800px;
     background-size: 800px;
-
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
-}
+    top: 0px;
+    margin-top: 0;
+    }
+   
+   .the-band-wrapper-blue {
+    background-color: #2098d1;
+    color: #FFFFFF;
+    padding: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 600px;
+    
+    }
+  
+  .the-band-headline {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-align: center;
 
+    }
+    
+  .about-the-band {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+text-align: center;
 
-
-.vote-section {
-    margin: 40px;
-}
-
-/*-------------------------------THE-BAND*/
-
+    }
+    
 /*-------------------------------TRACKS*/
 
 #tracks {
@@ -255,47 +305,119 @@ body {
     text-align: center;
 }
 
+.top-tracks{
+   margin: 0 auto;
+}
+
 /*-------------------------------TOUR-DATES*/
 
-.callout-container2 {
-    min-height: 80vh;
+.tour-dates-header {
+    color: #000000;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.table-striped,
+th {
+    text-align: center;
+}
+
+th {
+    text-transform: uppercase;
+}
+
+.table {
     font-family: 'Roboto', sans-serif;
-    background: url("/assets/cover3.jpg") no-repeat center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
+    font-weight: 500;
+    font-size: 20px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: scroll;
+    min-height: 100vh;
+    }
+    
+ .tickets {
+    color: #7f0000;
+    transition: 0.6s;
+    }
+    
+ .fa-ticket:hover {
+    color: #7f0000;
+    -ms-transform: hvr-grow;
+    -webkit-transform: hvr-grow;
+    -moz-transform: hvr-grow;
+    -o-transform: hvr-grow;
+    transform: hvr-grow;
+    }
+
+a:hover {
+    text-decoration: none;
+    color: #7f0000;
+    }   
+
+/*-------------------------------BOOKINGS*/
+
+/*-------------------------------GALLERY*/
+ .featured-image {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    } 
+    
+    .photo-gallery  {
     align-items: center;
-    justify-content: center;
-    position: relative;
-    margin-top: 0;
-    margin-bottom: 15px;
-    background-color: #2098d1;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+    }
+    
+    .opaque-overlay3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    }
+    
+ div.imagetiles div.col-lg-3.col-md-3.col-sm-3.col-xs-6{
+  padding: 2px 10px 10px 30px;
+  align-items: center;
+    }
+  
+  div.imagetiles div.col-lg-3.col-md-3.col-sm-3.col-xs-6 img{
+  height: 220px;
+  width: 220px;
+  }
+/*-------------------------------VOTE*/
 
-    /*-------------------------------BOOKINGS*/
-    /*-------------------------------GALLERY*/
-    /*-------------------------------VOTE*/
-    /*-------------------------------BUY-TICKETS*/
-    /*---------------------------------JUMBOTRAN*/
-    jumbotron text-center {
-        background-color: orange;
-    }
+/*-------------------------------BUY-TICKETS*/
 
-    .callout jumbotron text-center {
-        background: url("../images/cover3.jpg") font-size: 30px;
-    }
+/*---------------------------------JUMBOTRAN*/
 
-    .block-divider--black {
-        background-color: black;
-        font-weight: 200;
-        width: 45%;
-    }
-    /*---------------------------------Media Queries*/
-    .footer {
-        min-height: 10vh;
-        bottom: -1;
-        margin-bottom: 0;
-        padding-top: 30px;
-        margin-top: 10px;
-    }
+jumbotron text-center {
+    background-color: orange;
+}
+
+
+.block-divider--black {
+    background-color: black;
+    font-weight: 200;
+    width: 45%;
+}
+
+/*---------------------------------Media Queries*/
+
+.footer {
+    min-height: 10vh;
+    bottom: -1;
+    margin-bottom: 0;
+    padding-top: 30px;
+    margin-top: 10px;
+}
