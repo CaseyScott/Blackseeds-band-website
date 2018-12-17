@@ -29,13 +29,13 @@ body {
     left: 0;
     width: 100%;
     z-index: 1;
-    background-color: #fffc64;
+    background-color: #e8fcf5;
     border: 0;
     border-radius: 0;
 }
 
 .navbar-header {
-    background-color: #fffc64;
+    background-color: #e8fcf5;
     color: #FFFFFF;
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
@@ -87,7 +87,7 @@ body {
 .navbar .navbar-brand {
     color: #000000;
     font-size: 40px;
-    background-color: #fffc64;
+    background-color: #e8fcf5;
 }
 
 .navbar-brand hidden-sm {
@@ -118,18 +118,18 @@ body {
     border: 0;
     border-radius: 16px;
     width: 100px;
-    background-color: #fffc64;
+    background-color: #e8fcf5;
     color: #FFFFFF;
 }
 
 .navbar-btn:hover {
-    background-color: #fffc65;
-    border-color: #fffc65;
+    background-color: #e8fcf5;
+    border-color: #e8fcf5;
     color: #FFFFFF;
 }
 
 .options {
-    color: #fffc64;
+    color: #e8fcf5;
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
@@ -164,7 +164,7 @@ body {
     overflow-y: scroll;
     overflow-x: hidden;
     width: 100%;
-    background-color: #fffc64;
+    background-color: #e8fcf5;
 }
 
 
@@ -173,9 +173,9 @@ body {
 /*--------------------------------------------Heading*/
 
 .container-fluid {
-    background-color: #fffc64;
+    background-color: #e8fcf5;
     margin: 0;
-    padding: 0px 400px;
+    padding: 0px;
 }
 
 
@@ -253,7 +253,13 @@ p {
 
 /*-------------------------------HOME-PAGE*/
 
+#top-albums {
+    align-items: center;
+}
 
+#top-tracks {
+    align-items: center;
+}
 
 /*-------------------------------THE-BAND*/
 .callout-container1 {
@@ -359,6 +365,10 @@ a:hover {
 /*-------------------------------BOOKINGS*/
 
 /*-------------------------------GALLERY*/
+.section-header {
+    text-align: center;
+}
+
  .featured-image {
     width: 100%;
     height: auto;
@@ -393,7 +403,7 @@ a:hover {
   
   div.imagetiles div.col-lg-3.col-md-3.col-sm-3.col-xs-6 img{
   height: 220px;
-  width: 220px;
+  width: 320px;
   }
 /*-------------------------------VOTE*/
 
@@ -421,3 +431,4 @@ jumbotron text-center {
     padding-top: 30px;
     margin-top: 10px;
 }
+
