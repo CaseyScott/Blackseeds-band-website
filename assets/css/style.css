@@ -14,6 +14,7 @@ body {
 .row {
     margin-right: 0;
     margin-left: 0;
+    margin-bottom: 45px;
 }
 
 .sr-only icon-bar {
@@ -196,6 +197,7 @@ h6,
 p {
     padding-left: 5px;
     padding-right: 5px;
+    margin-bottom: 45px;
 }
 
 
@@ -243,7 +245,7 @@ p {
 
 .social-media-links {
     font-size: 40px;
-    background-color: #ffff00;
+    background-color: #b0a18e;
     /*yellow*/
 }
 
@@ -267,12 +269,12 @@ p {
 }
 */
 
-
-
 .form-group p {
     font-size: 18px;
     font-family: 'Roboto';
+    margin-bottom: 10px;
 }
+
 
 
 /*-------------------------------HOME-PAGE*/
@@ -340,16 +342,21 @@ a:hover {
 
 /*-------------------------------MUSIC*/
 
-#tracks {
-    background-color: #2098d1;
+#top-albums {
+    margin-top: 20px;
+
+}
+
+#top-albums {}
+
+#top-tracks {
+    background-color: #4f788b;
     color: #FFFFFF;
-    padding: 15px;
+    padding: 45px;
     text-align: center;
 }
 
-.top-tracks {
-    margin: 0 auto;
-}
+
 
 /*----------End OF---------------MUSIC*/
 
@@ -359,10 +366,10 @@ a:hover {
     text-align: center;
 }
 
-.callout-container1 {
+.the-band {
     min-height: 100vh;
     font-family: 'Roboto', sans-serif;
-    background: url("../images/8members.png") no-repeat center;
+    background: url("../images/members.png") no-repeat center;
     -webkit-background-size: 800px;
     -moz-background-size: 800px;
     -o-background-size: 800px;
@@ -464,7 +471,7 @@ div.imagetiles div.col-lg-3.col-md-3.col-sm-3.col-xs-6 img {
     padding-bottom: 30px;
     margin-bottom: 30px;
     color: inherit;
-    background-color: #d9bf6a;
+    background-color: #f5e5ad;
 }
 
 .block-divider--black {
@@ -476,5 +483,7 @@ div.imagetiles div.col-lg-3.col-md-3.col-sm-3.col-xs-6 img {
 /*----------End OF-------------JUMBOTRAN*/
 
 /*---------------------------------Media Queries*/
+
+
 
 /*-------------End OF------------Media Queries*/
