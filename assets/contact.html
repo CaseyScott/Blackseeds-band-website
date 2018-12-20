@@ -14,8 +14,9 @@
 </head>
 
 <body>
+
     <!--Header & Navigation Bar -->
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-default col-md-12 col-md-offset-1">
         <div class="container-fluid">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
                     <span class="sr-only">Toggle navigation</span>
@@ -41,48 +42,59 @@
     <!--End of header & navigation bar-->
 
     <main>
-        <section></section>
-        <div class="row">
-            <div class="bookings-header uppercase">
-                <h1>
-                    <span style="font-family:Roboto">Bookings</span>
-                </h1>
-            </div>
+        <section class="event-bookings">
             <div class="row">
-                <div class="col-xs-12 col-sm-12 options-for-booking">
-                    <h2 class="uppercase" "font-family:Roboto">
-                        Private Gigs, Garden parties, Birthdays, Weddings, Make your next event one to remeber. Book The Black Seeds.
-                    </h2>
-
+                <div class="bookings-header">
+                    <h1>
+                        <span style="font-family:Roboto ">Bookings</span>
+                    </h1>
                 </div>
-            </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 options-for-booking">
+                        <h2 class="font-family:Roboto col-md-6 col-md-offset-3">
+                            Private Gigs, Garden parties, Birthdays, Weddings, Make your next event one to remeber. Book The Black Seeds
+                        </h2>
+                    </div>
+                </div>
+                <hr class="block-divider block-divider--blue">
 
-        </div>
         </section>
         <section>
             <div class="form-center">
-                <div class="col-xs-12 col-md-12 booking foam">
+                <div class="col-xs-4 col-md-4 booking foam">
                     <h2 class="section-header">
                         <span style="font-family:Roboto>Make an Enquiry">
                         </span>
                     </h2>
                     <form class="form-booking">
-                        <div class="form-group">
-                            <label for="email">Email address</label>
-                            <input type="email" class="form-control" id="email" placeholder="Email" required>
+
+                        <label for="email">Email</label>
+                        <div class="input-group">
+                            <span class="input-group-addon" id="basic-addon1">@</span>
+                            <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
                         </div>
+
                         <div class="form-group">
                             <label for="email">Event Date</label>
                             <input type="date" class="form-control" id="date" required>
                         </div>
-                        <div class="form-group">
-                            <label for="budget">Budget</label>
-                            <input type="number" class="form-control" id="budget" required>
+                        <label for="budget">Budget</label>
+                        <div class="input-group">
+
+                            <span class="input-group-addon">$</span>
+                            <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                            <span class="input-group-addon">.00</span>
                         </div>
+
+                        <div class="form-group">
+                            <label for="event">Event Description</label>
+                            <input type="input" class="form-control" id="budget" required>
+                        </div>
+
                         <button type="sumbit" class="btn btn--red">Submit Enquiry</button>
                     </form>
                 </div>
-                
+
             </div>
         </section>
     </main>
@@ -93,11 +105,13 @@
 
     <!-- footer -->
     <footer class="container-fluid footer footer-blackseeds">
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2">
-                    <div class="form-group ">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <div class="form-group ">
                     <form>
-                        <p><Strong>Join the mailing list</Strong></p>
+                        <p>
+                            <Strong>Join the mailing list</Strong>
+                        </p>
                         <input type="email " name="email " placeholder="Enter email address">
                     </form>
                     <button type="submit " class="btn btn-danger ">Subscribe</button>
@@ -123,6 +137,10 @@
             </div>
     </footer>
     <!-- end of footer-->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
 </body>
 
 </html>

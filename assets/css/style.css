@@ -1,5 +1,3 @@
-/*make sure you maintain a clear separation between the library code and your code.*/
-
 /*----------FONTS-----*/
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
@@ -146,10 +144,10 @@ body {
     height: 100vh;
 
     background: url("../images/logo-1.png") no-repeat center center fixed;
-    -webkit-background-size: 800px;
-    -moz-background-size: 800px;
-    -o-background-size: 800px;
-    background-size: 800px;
+    -webkit-background-size: 1000px;
+    -moz-background-size: 1000px;
+    -o-background-size: 1000px;
+    background-size: 1000px;
 
     display: flex;
     align-items: center;
@@ -231,6 +229,7 @@ h3 {
     padding-top: 20px;
     margin-bottom: 45px;
     font-size: 38px;
+    
 }
 
 /*---------------------------------HOVER*/
@@ -354,14 +353,13 @@ a:hover {
 
 /*-------------------------------MUSIC*/
 
-#top-albums {
+.top-albums {
     margin-top: 20px;
 
 }
 
-#top-albums {}
 
-#top-tracks {
+.top-tracks {
     background-color: #4f788b;
     color: #FFFFFF;
     padding: 45px;
@@ -425,6 +423,9 @@ a:hover {
     align-items: center;
 }
 
+.video-title{
+    text-align: center;
+}
 /*--------End OF-------------VIDEOS*/
 
 /*-------------------------------GALLERY*/
@@ -473,7 +474,10 @@ div.imagetiles div.col-lg-3.col-md-3.col-sm-3.col-xs-12 img {
 /*-------------End OF-------------GALLERY*/
 
 /*-------------------------------BOOKINGS*/
-
+.bookings-header {
+    text-align: center;
+    
+}
 /*--------End OF-------------BOOKINGS*/
 
 /*-------------------------------BUY-TICKETS*/
@@ -501,3 +505,5 @@ div.imagetiles div.col-lg-3.col-md-3.col-sm-3.col-xs-12 img {
 /*---------------------------------Media Queries*/
 
 /*-------------End OF------------Media Queries*/
+
+

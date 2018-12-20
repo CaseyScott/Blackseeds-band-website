@@ -15,7 +15,7 @@
 
 <body>
     <!--Header & Navigation Bar -->
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-default col-md-12 col-md-offset-1">
         <div class="container-fluid">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
                     <span class="sr-only">Toggle navigation</span>
@@ -23,7 +23,6 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-        </div>
         </div>
         <div class="navbar-collapse collapse" id="navbar">
             <ul class="nav navbar-nav options">
@@ -41,26 +40,28 @@
     <!--End of header & navigation bar-->
     <!--Youtube-->
     <section class="watch">
-        <div class="youtube-title">
-            <h3 class="uppercase" align="center" style="font-family:Spicy Rice">Videos</h3>
-            <ul class="youtube-links ">
-                <li><a class="youtube " target="_blank " href="https://www.youtube.com/channel/UCRJ5IhSHH__NZJ2nYEiIKmw ">
-                        <i class="fa fa-youtube " aria-hidden="true "></i></a></li>
-            </ul>
-
+        <div class="video-title">
+            <div class="youtube-title col-md-4 col-md-offset-6">
+                <h3 class="uppercase" style="font-family:Roboto">Videos</h3>
+                <div class="youtube-links ">
+                    <div><a class="youtube " target="_blank " href="https://www.youtube.com/channel/UCRJ5IhSHH__NZJ2nYEiIKmw ">
+                        <i class="fa fa-youtube" aria-hidden="true "></i></a></div>
+                </div>
+            </div>
         </div>
-        <div class="youtube-wrapper">
-            <div>
-                <iframe class="col-md-4" height="280" src="https://www.youtube.com/embed/xWfO7xENqMM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <iframe class="col-md-4" height="280" src="https://www.youtube.com/embed/AvMuUnFNPIk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <iframe class="col-md-4" height="280" src="https://www.youtube.com/embed/5OB2ljrX_2E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <iframe class="col-md-4" height="280" src="https://www.youtube.com/embed/2fOFWRqy98k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <iframe class="col-md-4" height="280" src="https://www.youtube.com/embed/Lr7nJCjUj0k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <iframe class="col-md-4" height="280" src="https://www.youtube.com/embed/XcSzgMghFLE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <iframe class="col-md-4" height="280" src="https://www.youtube.com/embed/KxWeQD3H208" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <iframe class="col-md-4" height="280" src="https://www.youtube.com/embed/vLHJyf9qUaM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <iframe class="col-md-4" height="280" src="https://www.youtube.com/embed/Zb5lHyaqK7A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+        <div class="row">
+            <div class="youtube-wrapper">
+                <div>
+                    <iframe class="col-md-4" height="280" src="https://www.youtube.com/embed/xWfO7xENqMM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe class="col-md-4" height="280" src="https://www.youtube.com/embed/AvMuUnFNPIk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe class="col-md-4" height="280" src="https://www.youtube.com/embed/5OB2ljrX_2E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe class="col-md-4" height="280" src="https://www.youtube.com/embed/2fOFWRqy98k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe class="col-md-4" height="280" src="https://www.youtube.com/embed/Lr7nJCjUj0k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe class="col-md-4" height="280" src="https://www.youtube.com/embed/XcSzgMghFLE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe class="col-md-4" height="280" src="https://www.youtube.com/embed/KxWeQD3H208" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe class="col-md-4" height="280" src="https://www.youtube.com/embed/vLHJyf9qUaM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe class="col-md-4" height="280" src="https://www.youtube.com/embed/Zb5lHyaqK7A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
             </div>
         </div>
     </section>
@@ -103,6 +104,10 @@
             </div>
     </footer>
     <!-- end of footer-->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
