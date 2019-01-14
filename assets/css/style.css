@@ -420,7 +420,7 @@ a:hover {
     font-size: 40px;
     background-color: #b0a18e;
     width: 10%;
-    align-items: center;
+    text-align: center;
 }
 
 .video-title{
