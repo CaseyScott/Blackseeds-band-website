@@ -1,6 +1,10 @@
 /*----------FONTS-----*/
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+
+
+
+
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -138,20 +142,18 @@ body {
     margin-top: 60px;
 }
 
+
 /*--------------------------------------Body */
 
 .callout-container {
-    height: 90vh;
-
-    background: url("../images/logo-1.png") no-repeat center center fixed;
-    -webkit-background-size: 1000px;
-    -moz-background-size: 1000px;
-    -o-background-size: 1000px;
-    background-size: 1000px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
+     background: url("../images/logo-1.png") no-repeat center center fixed;
+    -webkit-background-size: 90%;
+    -moz-background-size: 90%;
+    -o-background-size: 90%;
+    width: 100vw;
+    height: 100vh;
+    background-size: 75% 90%;
+    background-repeat: no-repeat;
     position: relative;
 }
 
@@ -229,7 +231,7 @@ h3 {
     padding-top: 50px;
     margin-bottom: 45px;
     font-size: 38px;
-    
+
 }
 
 /*---------------------------------HOVER*/
@@ -262,14 +264,16 @@ h3 {
 /*----------------------------------Footer*/
 
 .footer-blackseeds {
+    
     text-align: center;
     right: 0;
     bottom: -1px;
     left: 0;
-    padding: 1rem;
+    padding: 0;
     color: #000000;
     width: 100%;
-    height: 20vh;
+    height: 40vh;
+    line-height: 2.8;
 }
 
 
@@ -283,23 +287,25 @@ h3 {
 .form-group p {
     font-size: 18px;
     font-family: 'Roboto';
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
 
 
 
 /*-------------------------------HOME-PAGE*/
 
-#top-albums {
+.top-albums {
+    margin-top: 20px;
     text-align: center;
 }
 
-#top-tracks {
+.top-tracks {
+    background-color: #4f788b;
+    color: #FFFFFF;
     text-align: center;
-    padding-top: 65px;
+    
 }
 
-/*------------End OF------------HOME-PAGE*/
 
 /*-------------------------------TOUR-DATES*/
 
@@ -349,22 +355,11 @@ a:hover {
     color: #7f0000;
 }
 
-/*-----End of---------------TOUR-DATES*/
+
 
 /*-------------------------------MUSIC*/
 
-.top-albums {
-    margin-top: 20px;
 
-}
-
-
-.top-tracks {
-    background-color: #4f788b;
-    color: #FFFFFF;
-    padding: 45px;
-    text-align: center;
-}
 
 .tracks-header {
     text-align: center;
@@ -372,7 +367,7 @@ a:hover {
 }
 
 
-/*----------End OF---------------MUSIC*/
+
 
 /*-------------------------------THE-BAND*/
 
@@ -382,6 +377,7 @@ a:hover {
     padding: 5px;
     margin-right: auto;
     margin-left: auto;
+    margin-top: 25px;
 }
 
 .the-band-headline {
@@ -413,20 +409,18 @@ a:hover {
     text-align: center;
 }
 
-/*--------End of----------------THE-BAND*/
+
 
 /*-------------------------------VIDEOS*/
+
 .youtube-links {
-    font-size: 40px;
-    background-color: #b0a18e;
-    width: 10%;
+    font-size: 50px;
+    background-color: #d9bf6a;
+    width: 100%;
     text-align: center;
 }
 
-.video-title{
-    text-align: center;
-}
-/*--------End OF-------------VIDEOS*/
+
 
 /*-------------------------------GALLERY*/
 
@@ -471,18 +465,17 @@ div.imagetiles div.col-lg-3.col-md-3.col-sm-3.col-xs-12 img {
     width: 320px;
 }
 
-/*-------------End OF-------------GALLERY*/
+
 
 /*-------------------------------BOOKINGS*/
+
 .bookings-header {
     text-align: center;
-    
+
 }
-/*--------End OF-------------BOOKINGS*/
+
 
 /*-------------------------------BUY-TICKETS*/
-
-/*----------END OF-------------BUY-TICKETS*/
 
 /*---------------------------------JUMBOTRAN*/
 
@@ -500,10 +493,6 @@ div.imagetiles div.col-lg-3.col-md-3.col-sm-3.col-xs-12 img {
     width: 45%;
 }
 
-/*----------End OF-------------JUMBOTRAN*/
+
 
 /*---------------------------------Media Queries*/
-
-/*-------------End OF------------Media Queries*/
-
-

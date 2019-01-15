@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <title>The Black Seeds</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -10,7 +11,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" type="text/css" />
-    <title>The Black Seeds</title>
 </head>
 
 <body>
@@ -25,7 +25,6 @@
                     <span class="icon-bar"></span>
                 </button>
         </div>
-        </div>
         <div class="navbar-collapse collapse" id="navbar">
             <ul class="nav navbar-nav options">
                 <li class="active"><a class="hvr-grow" href="index.html">Home</a></li>
@@ -34,7 +33,7 @@
                 <li class="active"><a class="hvr-grow" href="band.html">The Band</a></li>
                 <li class="active"><a class="hvr-grow" href="video.html">Videos</a></li>
                 <li class="active"><a class="hvr-grow" href="gallery.html">Photos</a></li>
-                <li class="active"><a class="hvr-grow" href="contact.html">Bookings</a></li>
+                <li class="active"><a class="hvr-grow" href="bookings.html">Bookings</a></li>
             </ul>
         </div>
     </nav>
@@ -59,44 +58,43 @@
                     </div>
                 </div>
                 <hr class="block-divider block-divider--blue">
-
+            </div>
         </section>
         <section>
             <div class="form-center">
                 <div class="col-xs-4 col-md-4 booking foam">
                     <h2 class="section-header">
-                        <span style="font-family:Roboto>Make an Enquiry">
+                        <span style="font-family:Roboto">Make an Enquiry
                         </span>
                     </h2>
-                    <form class="form-booking">
-
-                        <label for="email">Email</label>
-                        <div class="input-group">
-                            <span class="input-group-addon" id="basic-addon1">@</span>
-                            <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
-                        </div>
-
-                        <div class="form-group">
-                            <label for="email">Event Date</label>
-                            <input type="date" class="form-control" id="date" required>
-                        </div>
-                        <label for="budget">Budget</label>
-                        <div class="input-group">
-
-                            <span class="input-group-addon">$</span>
-                            <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
-                            <span class="input-group-addon">.00</span>
-                        </div>
-
-                        <div class="form-group">
-                            <label for="event">Event Description</label>
-                            <input type="input" class="form-control" id="budget" required>
-                        </div>
-
-                        <button type="sumbit" class="btn btn--red">Submit Enquiry</button>
-                    </form>
                 </div>
+                <form class="form-booking">
 
+                    <label for="email">Email</label>
+                    <div class="input-group">
+                        <span class="input-group-addon" id="basic-addon1">@</span>
+                        <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Event Date</label>
+                        <input type="email" class="form-control" id="date" required>
+                    </div>
+                    <label for="budget">Budget</label>
+                    <div class="input-group">
+
+                        <span class="input-group-addon">$</span>
+                        <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                        <span class="input-group-addon">.00</span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="event">Event Description</label>
+                        <input type="number" class="form-control" id="budget" required>
+                    </div>
+
+                    <button type="sumbit" class="btn btn--red">Submit Enquiry</button>
+                </form>
             </div>
         </section>
     </main>
@@ -107,17 +105,19 @@
 
     <!-- footer -->
     <footer class="container-fluid footer footer-blackseeds">
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2">
-                    <div class="form-group ">
-                <form>
-                    <p><Strong>Join the mailing list</Strong></p>
-                    <input type="email " name="email " placeholder="Enter email address">
-                </form>
-                <button type="submit " class="btn btn-danger ">Subscribe</button>
-               
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <div class="form-group ">
+                    <form>
+                        <p>
+                            <Strong>Join the mailing list</Strong>
+                        </p>
+                        <input type="email" name="email " placeholder="Enter email address">
+                    </form>
+                    <button type="submit " class="btn btn-danger ">Subscribe</button>
+
                     <ul class="list-inline social-media-links ">
-                        
+
                         <li><a class="facebook " target="_blank " href="https://www.facebook.com/theblackseeds/ ">
                         <i class="fa fa-facebook " aria-hidden="true "></i></a></li>
 
@@ -132,9 +132,13 @@
 
                         <li><a class="youtube " target="_blank " href="https://www.youtube.com/channel/UCRJ5IhSHH__NZJ2nYEiIKmw ">
                         <i class="fa fa-youtube " aria-hidden="true "></i></a></li>
+                        <div class="col-sm-4 col-md-4">
+                            <h5 class="uppercase disclaimer">Disclaimer:<br>All images and content found on this page do not belong to me, they are property of 'The Black Seeds Musical group'.</h5>
+                        </div>
                     </ul>
                 </div>
             </div>
+        </div>
     </footer>
     <!-- end of footer-->
 
