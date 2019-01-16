@@ -461,6 +461,10 @@ p {
     background-color: #b0a18e;
 }
 
-
+.mail-list{
+    font-size: 18px;
+    font-family: 'Roboto';
+    margin-bottom: 0px;
+}
 
 /*---------------------------------Media Queries*/
