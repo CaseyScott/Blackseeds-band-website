@@ -12,6 +12,7 @@ body {
 /*-------------------------------Colors*/
 
 /*--------------------------------------navbar*/
+
 .hvr-grow {
     display: inline-block;
     vertical-align: middle;
@@ -75,7 +76,7 @@ body {
 .navbar .navbar-brand {
     color: #FFFFFF;
     font-size: 30px;
-    
+
 }
 
 .navbar-brand-sm {
@@ -83,7 +84,7 @@ body {
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
     width: 100%;
-    
+
 }
 
 
@@ -152,7 +153,8 @@ body {
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
     padding: 5px 8px 0 5px;
-    margin: 0 10px;
+
+    display: inline;
 }
 
 .below-navbar {
@@ -166,16 +168,17 @@ body {
 }
 
 /*-------------------------------HOME-PAGE*/
+
 .callout-container {
     background: url("../images/logo-1.png") no-repeat center center fixed;
-    -webkit-background-size: 90%;
-    -moz-background-size: 90%;
-    -o-background-size: 90%;
-    width: 100vw;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    width: auto;
     height: 100vh;
-    background-size: 75% 90%;
     background-repeat: no-repeat;
     position: relative;
+    background-size: contain;
 }
 
 .top-albums {
@@ -189,8 +192,24 @@ body {
     text-align: center;
 
 }
-/*--------------------------------------Body */
 
+/*---------------------------------JUMBOTRAN*/
+
+.jumbotron {
+    padding: 30px 60px 30px 60px;
+    margin-bottom: 30px;
+    color: inherit;
+    background-color: #f5e5ad;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.block-divider--black {
+    background-color: black;
+    font-weight: 200;
+    width: 45%;
+}
+/*--------------------------------------Body */
 
 body {
     padding-top: 40px;
@@ -337,18 +356,18 @@ p {
 }
 
 .band-image {
-    min-height: 100vh;
+    min-height: 80vh;
     font-family: 'Roboto', sans-serif;
     background: url("../images/members.png") no-repeat center;
-    -webkit-background-size: 600px;
-    -moz-background-size: 600px;
-    -o-background-size: 600px;
-    background-size: 600px;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
-    margin-top: -100px;
+    margin-top: 0px;
     text-align: center;
 }
 
@@ -414,31 +433,10 @@ p {
     margin-bottom: 18px;
 }
 
-.options-for-booking {
-    font-family: 'Roboto', sans-serif;
-    position: relative;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
-}
-
-
-
-/*---------------------------------JUMBOTRAN*/
-
-.jumbotron {
-    padding: 30px 60px 30px 60px;
-    margin-bottom: 30px;
-    color: inherit;
-    background-color: #f5e5ad;
-    border-radius: 6px;
-    text-align: center;
-}
-
-.block-divider--black {
-    background-color: black;
-    font-weight: 200;
-    width: 45%;
+.form-group p {
+    font-size: 18px;
+    font-family: 'Roboto';
+    margin-bottom: 0px;
 }
 
 /*----------------------------------Footer*/
@@ -463,10 +461,6 @@ p {
     background-color: #b0a18e;
 }
 
-.form-group p {
-    font-size: 18px;
-    font-family: 'Roboto';
-    margin-bottom: 0px;
-}
+
 
 /*---------------------------------Media Queries*/
