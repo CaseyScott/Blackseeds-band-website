@@ -161,11 +161,11 @@ body {
     margin-top: 60px;
 }
 
-.container-fluid {
+/*.container-fluid {
     background-color: #e8fcf5;
     margin: 0;
     padding: 0px;
-}
+}*/
 
 /*-------------------------------HOME-PAGE*/
 
@@ -184,13 +184,14 @@ body {
 .top-albums {
     margin-top: 20px;
     text-align: center;
+    border: 0px;
 }
 
 .top-tracks {
     background-color: #4f788b;
     color: #FFFFFF;
     text-align: center;
-
+    border: 0px;
 }
 
 /*---------------------------------JUMBOTRAN*/
@@ -202,13 +203,33 @@ body {
     background-color: #f5e5ad;
     border-radius: 6px;
     text-align: center;
+    font-size: 30px;
 }
 
-.block-divider--black {
-    background-color: black;
+.jumbotron>hr{
+    border-top-color: red;
+}
+
+.divider {
     font-weight: 200;
     width: 45%;
 }
+
+.button {
+    color: #7f0000;
+    
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+}
+
+.button:hover{
+    color: #61a3db;
+    transition: 0.3s;
+}
+
 /*--------------------------------------Body */
 
 body {
@@ -289,13 +310,10 @@ th {
     border-collapse: collapse;
 }
 
-.tickets {
-    color: #7f0000;
-    transition: 0.3s;
-}
+
 
 .fa-ticket:hover {
-    color: #b0a18e;
+    color:  #61a3db;
     -ms-transform: hvr-grow;
     -webkit-transform: hvr-grow;
     -moz-transform: hvr-grow;
@@ -303,10 +321,7 @@ th {
     transform: hvr-grow;
 }
 
-a:hover {
-    text-decoration: none;
-    color: #b0a18e;
-}
+
 
 
 
@@ -315,6 +330,7 @@ a:hover {
 .tracks-header {
     text-align: center;
     padding-top: 50px;
+    border: 0px;
 }
 
 p {
@@ -327,7 +343,7 @@ p {
 .row {
     margin-right: 0;
     margin-left: 0;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 
@@ -367,7 +383,7 @@ p {
     align-items: center;
     justify-content: center;
     position: relative;
-    margin-top: 0px;
+    margin-top: 0;
     text-align: center;
 }
 
@@ -385,7 +401,7 @@ p {
 .row {
     margin-right: 0;
     margin-left: 0;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 
@@ -412,7 +428,7 @@ p {
     align-items: center;
     margin-right: 0;
     margin-left: 0;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 .col-lg-3.col-md-3.col-sm-3.col-xs-12 img {
@@ -436,13 +452,23 @@ p {
 .form-group p {
     font-size: 18px;
     font-family: 'Roboto';
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 /*----------------------------------Footer*/
+a:hover {
+    text-decoration: none;
+    color: #61a3db;
+}
+
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
 
 .footer-blackseeds {
-
     text-align: center;
     right: 0;
     bottom: -1px;
@@ -452,19 +478,28 @@ p {
     width: 100%;
     height: 40vh;
     line-height: 2.8;
+    min-height: 120px;
 }
-
-
 
 .social-media-links {
     font-size: 40px;
     background-color: #b0a18e;
 }
 
-.mail-list{
+.mail-list {
     font-size: 18px;
     font-family: 'Roboto';
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
+.disclaimer{
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+    text-align: center;
+}
 /*---------------------------------Media Queries*/
