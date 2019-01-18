@@ -169,7 +169,7 @@ body {
 
 /*-------------------------------HOME-PAGE*/
 
-.callout-container {
+.main-logo {
     background: url("../images/logo-1.png") no-repeat center center fixed;
     -webkit-background-size: contain;
     -moz-background-size: contain;
@@ -179,6 +179,10 @@ body {
     background-repeat: no-repeat;
     position: relative;
     background-size: contain;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 .top-albums {
@@ -206,7 +210,7 @@ body {
     font-size: 30px;
 }
 
-.jumbotron>hr{
+.jumbotron>hr {
     border-top-color: red;
 }
 
@@ -217,7 +221,7 @@ body {
 
 .button {
     color: #7f0000;
-    
+
     -webkit-appearance: button;
     -moz-appearance: button;
     appearance: button;
@@ -225,7 +229,7 @@ body {
     text-decoration: none;
 }
 
-.button:hover{
+.button:hover {
     color: #61a3db;
     transition: 0.3s;
 }
@@ -313,7 +317,7 @@ th {
 
 
 .fa-ticket:hover {
-    color:  #61a3db;
+    color: #61a3db;
     -ms-transform: hvr-grow;
     -webkit-transform: hvr-grow;
     -moz-transform: hvr-grow;
@@ -429,14 +433,14 @@ p {
     margin-right: 0;
     margin-left: 0;
     margin-bottom: 0;
+
 }
 
 .col-lg-3.col-md-3.col-sm-3.col-xs-12 img {
+
     height: 220px;
     width: 320px;
 }
-
-
 
 /*-------------------------------BOOKINGS*/
 
@@ -456,6 +460,7 @@ p {
 }
 
 /*----------------------------------Footer*/
+
 a:hover {
     text-decoration: none;
     color: #61a3db;
@@ -492,7 +497,7 @@ a:hover {
     margin-bottom: 0;
 }
 
-.disclaimer{
+.disclaimer {
     font-size: 14px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -502,4 +507,38 @@ a:hover {
     color: inherit;
     text-align: center;
 }
+
+
 /*---------------------------------Media Queries*/
+
+/* Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) {
+    .main-logo {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+
+
+    /* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    .main-logo {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+
+
+
+    /*Large devices (desktops, 992px and up)*/
+    @media (min-width: 992px) {
+        .main-logo
+    }
+
+
+
+    /*Extra large devices (large desktops, 1200px and up)*/
+    @media (min-width: 1200px) {
+        .main-logo
+    }
