@@ -61,7 +61,7 @@
             </div>
         </section>
         <section>
-            <div class="form-center">
+            <div class="form-center row">
                 <div class="col-xs-4 col-md-4 booking form">
                     <h2 class="section-header">
                         <span style="font-family:Roboto">Make an Enquiry
@@ -71,7 +71,7 @@
                     <form>
                         <div class="form-booking">
                             <label for="Email1">Email address</label>
-                            <input type="email" class="form-control" id="Email1" aria-describedby="emailHelp" placeholder="Enter email">
+                            <input type="email" class="form-control" id="Email1" aria-describedby="emailHelp" placeholder="Enter email" required>
                         </div>
 
                         <div class="form-booking">
@@ -83,13 +83,13 @@
                         <div class="input-group">
 
                             <span class="input-group-addon">$</span>
-                            <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                            <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)" required>
                             <span class="input-group-addon">.00</span>
                         </div>
 
                         <div class="form-booking">
-                            <label for="budget">Event Description</label>
-                            <input type="number" class="form-control" id="budget" required>
+                            <label for="event">Event Description</label>
+                            <input type="text" class="form-control" id="event" required>
                         </div>
 
                         <button type="submit" class="btn btn--red">Submit Enquiry</button>

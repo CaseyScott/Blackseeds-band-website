@@ -12,50 +12,83 @@ on the site shows Band members photos, video clip of proformance and audio clips
 
 
 UX
-Their primary target audiences are their fans and potential fans who wish to use the site to see and hear clips from their back catalog, 
+Their primary target audiences are their fans and potential new fans who wish to use the site to see and hear clips from their back catalog, 
 and any new material as it becomes available. 
-Also, they are in the process of creating a social media presence and would like to add links to their Facebook, Twitter and YouTube pages.
+Also, they are in the process of expanding their social media presence and would like to add links to their Facebook, Twitter and YouTube pages etc.
 
-(Use this section to provide insight into your UX process, focusing on who this website is for,
-what it is that they want to achieve and how your project is the best way to help them achieve these things.
+-------------------------------------
+*As a user, I want to make contact with the band for enquiry about my wedding, i would like to contact without going through social media as my request
+could be easily missed.
+
+*As a user, recently hearing 'the black seeds' for the first time i would like to watch and listen to the most popular tracks.
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
 •	As a user type, I want to perform an action, so that I can achieve a goal.
+-------------------------------------
 
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. 
 These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format 
 that is viewable inside the browser.)
 
-Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
-Existing Features
-•	Feature 1 - allows users X to achieve Y, by having them fill out Z
-•	...
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-Features Left to Implement
-•	Another feature idea
+(add photos of white board wireframes ????)
 
-Technologies Used
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project.
-For each, provide its name, a link to its official site and a short sentence of why it was used.
-•	JQuery
-o	The project uses JQuery to simplify DOM manipulation.
 
-Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. 
-Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, 
-with the project providing an easy and straightforward way for the users to achieve their goals.
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, 
-link to the test file(s) and explain how to run them.
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. 
-A particularly useful form for describing your testing process is via scenarios, such as:
-1.	Contact form:
-i.	Go to the "Contact Us" page
-ii.	Try to submit the empty form and verify that an error message about the required fields appears
-iii.	Try to submit the form with an invalid email address and verify that a relevant error message appears
-iv.	Try to submit the form with all inputs valid and verify that a success message appears.
+--------Features:-------
+Home Page: 
+home page has Touring details as this is the biggest news for the band at this current time, there is a link that takes you to ticket sale website (the ticket fairy)
+Most popular songs (rating taken from spotify most popular)
+most popular albums (rating taken from spotify)
 
+Tour Dates:
+late 2018 and 2019 band touring venue date and ticket sales
+
+music:
+All albums linked through sotify website, click to play.
+
+Band info:
+Short right up about the history of the band.
+
+Videos:
+Offical band videos linked through youtube.com
+
+Bookings:
+Enquiry form will put you in contact with private bookings manager.
+
+Features Left to Implement:
+In the photos section there is a plan to include photos from general public or private gig clients to upload and share their our photos taken.
+
+------------------------------------------
+
+Technologies Used:
+
+Html5- HTML provides the basic structure of the site
+
+css3- CSS is used to control presentation, formatting, and layout
+
+JQuery- simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation
+
+Bootstrap- (front-end framework) HTML and CSS-based design templates for typography, forms, buttons, navigation and other interface components
+
+------------------------------------------
+
+Testing:
+
+Debugging Tools-
+css validation services -https://jigsaw.w3.org/css-validator/
+css validation -http://csslint.net/
+Markup Validation Service -https://validator.w3.org/#validate_by_input
+
+All pages tested in different responsive screen sizes. set up for mobile first.
+
+Make an Enquiry:
+fill in form, all inputs required (please fill out this field)
+Try to submit the form with an invalid email address and verify that a relevant error message appears
+**no success message as this is serverless static page**
+
+all links tested to disired desinations
+all tracks are playable for 30 seconds if not logged into spotify.
+
+This website works on all screen sizes from mobile
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
@@ -73,19 +106,9 @@ In addition, if it is not obvious, you should also describe how to run your code
 Credits
 
 Content
-•	The text for section Y was copied from the Wikipedia article Z
+•	The text for 'The Band' was copied from the Wikipedia article The Black Seeds
 
 Media
-•	The photos used in this site were obtained from ...
-
-Acknowledgements
-•	I received inspiration for this project from X
-
-
-You have been given the following requirements after interviews with the client’s representatives:
-Also, the band would like to use the site to showcase their music and publicise their availability to perform at events such as weddings and Christmas parties.
-
-The band has provided you, the developer, with the following assets that they would like to showcase on their website:
-Photos of the band members
-A video clip
-Audio clips
+•	The photos used in this site were obtained from google
+•   The music used in this site is taken from Spotify
+•   The videos used in this site is taken from Youtube

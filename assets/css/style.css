@@ -7,7 +7,17 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    padding-top: 40px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 100%;
+    background-color: #e8fcf5;
+    min-height: 100%
 }
+
+/*html {
+    height: 100%;
+}*/
 
 /*-------------------------------Colors*/
 
@@ -58,19 +68,14 @@ body {
     margin-bottom: 0;
     position: absolute;
     top: 0;
-    left: 0;
     width: 100%;
-    z-index: 1;
     background-color: #e8fcf5;
     border: 0;
-    border-radius: 0;
 }
 
 .navbar-header {
     background-color: #e8fcf5;
     color: #FFFFFF;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 100;
 }
 
 .navbar .navbar-brand {
@@ -82,11 +87,8 @@ body {
 .navbar-brand-sm {
     color: #FFFFFF;
     font-size: 20px;
-    font-family: 'Roboto', sans-serif;
     width: 100%;
-
 }
-
 
 .nav li a {
     display: block;
@@ -95,16 +97,9 @@ body {
 
 .navbar ul {
     text-align: center;
-    color: #000000;
-}
-
-.navbar-default .navbar-nav a {
-    color: #000000;
-
 }
 
 .navbar .navbar-brand {
-    color: #000000;
     font-size: 25px;
     background-color: #e8fcf5;
 }
@@ -116,8 +111,6 @@ body {
 
 .navbar-header {
     background-color: #fffc64;
-    color: #000000;
-    font-family: 'Roboto', sans-serif;
     font-weight: 100;
 }
 
@@ -128,44 +121,17 @@ body {
     background: transparent;
 }
 
-.navbar-default .navbar-nav>li>a:focus,
-.navbar-default .navbar-nav>li>a:hover {
-    color: #ffffff;
-}
-
-.navbar-btn {
-    border: 0;
-    border-radius: 16px;
-    width: 100px;
-    background-color: #e8fcf5;
-    color: #FFFFFF;
-}
-
-.navbar-btn:hover {
-    background-color: #e8fcf5;
-    border-color: #e8fcf5;
-    color: #FFFFFF;
-}
-
 .options {
     color: #e8fcf5;
     font-size: 20px;
-    font-family: 'Roboto', sans-serif;
     text-decoration: none;
     padding: 5px 8px 0 5px;
-
     display: inline;
 }
 
 .below-navbar {
     margin-top: 60px;
 }
-
-/*.container-fluid {
-    background-color: #e8fcf5;
-    margin: 0;
-    padding: 0px;
-}*/
 
 /*-------------------------------HOME-PAGE*/
 
@@ -182,7 +148,6 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 .top-albums {
@@ -225,7 +190,6 @@ body {
     -webkit-appearance: button;
     -moz-appearance: button;
     appearance: button;
-
     text-decoration: none;
 }
 
@@ -234,15 +198,7 @@ body {
     transition: 0.3s;
 }
 
-/*--------------------------------------Body */
 
-body {
-    padding-top: 40px;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    width: 100%;
-    background-color: #e8fcf5;
-}
 
 
 /*-------------------------------FONTS,BUTTONS-BLOCK_DIVIDERS*/
@@ -288,7 +244,6 @@ body {
 th {
     text-align: center;
     text-transform: uppercase;
-    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 20px;
     max-width: 800px;
@@ -299,7 +254,6 @@ th {
 
 
 .table {
-    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 20px;
     max-width: 800px;
@@ -313,21 +267,6 @@ th {
     border-spacing: 0;
     border-collapse: collapse;
 }
-
-
-
-.fa-ticket:hover {
-    color: #61a3db;
-    -ms-transform: hvr-grow;
-    -webkit-transform: hvr-grow;
-    -moz-transform: hvr-grow;
-    -o-transform: hvr-grow;
-    transform: hvr-grow;
-}
-
-
-
-
 
 /*-------------------------------MUSIC*/
 
@@ -363,21 +302,18 @@ p {
 }
 
 .the-band-headline {
-    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     text-align: center;
 
 }
 
 .about-the-band {
-    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     text-align: center;
 }
 
 .band-image {
     min-height: 80vh;
-    font-family: 'Roboto', sans-serif;
     background: url("../images/members.png") no-repeat center;
     -webkit-background-size: contain;
     -moz-background-size: contain;
@@ -402,13 +338,6 @@ p {
     text-align: center;
 }
 
-.row {
-    margin-right: 0;
-    margin-left: 0;
-    margin-bottom: 0;
-}
-
-
 /*-------------------------------PHOTOS*/
 
 .section-header {
@@ -422,7 +351,6 @@ p {
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
-
     -webkit-flex-flow: row wrap;
     justify-content: space-around;
 }
@@ -433,13 +361,12 @@ p {
     margin-right: 0;
     margin-left: 0;
     margin-bottom: 0;
-
 }
 
-.col-lg-3.col-md-3.col-sm-3.col-xs-12 img {
-
+.galleryImage {
     height: 220px;
     width: 320px;
+    margin-bottom: 10px;
 }
 
 /*-------------------------------BOOKINGS*/
@@ -455,7 +382,6 @@ p {
 
 .form-group p {
     font-size: 18px;
-    font-family: 'Roboto';
     margin-bottom: 0;
 }
 
@@ -472,6 +398,7 @@ hr {
 }
 
 /*----------------------------------Footer*/
+
 
 a:hover {
     text-decoration: none;
@@ -496,6 +423,7 @@ a:hover {
     height: 40vh;
     line-height: 2.8;
     min-height: 120px;
+  /*  position: absolute;*/
 }
 
 .social-media-links {
