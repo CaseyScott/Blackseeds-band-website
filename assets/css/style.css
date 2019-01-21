@@ -69,6 +69,7 @@ body {
     position: absolute;
     top: 0;
     width: 100%;
+    z-index: 1;
     background-color: #e8fcf5;
     border: 0;
 }
@@ -289,6 +290,14 @@ p {
     margin-bottom: 0;
 }
 
+.blue-title{
+    background-color: #4f788b;
+    color: #FFFFFF;
+    padding: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 25px;
+}
 
 /*-------------------------------THE-BAND*/
 
@@ -298,7 +307,7 @@ p {
     padding: 5px;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 25px;
+    margin-top: 66px;
 }
 
 .the-band-headline {
