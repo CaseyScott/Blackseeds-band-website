@@ -15,11 +15,10 @@ body {
     min-height: 100%
 }
 
-/*html {
+html {
     height: 100%;
-}*/
+}
 
-/*-------------------------------Colors*/
 
 /*--------------------------------------navbar*/
 
@@ -456,38 +455,3 @@ a:hover {
     color: inherit;
     text-align: center;
 }
-
-
-/*---------------------------------Media Queries*/
-
-/* Small devices (landscape phones, 576px and up)*/
-
-@media (min-width: 576px) {
-    .main-logo {
-        width: 100%;
-        margin-bottom: 20px;
-    }
-
-
-
-    /* Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) {
-    .main-logo {
-        width: 100%;
-        margin-bottom: 20px;
-    }
-    
-
-
-
-    /*Large devices (desktops, 992px and up)*/
-    @media (min-width: 992px) {
-        .main-logo
-    }
-
-
-
-    /*Extra large devices (large desktops, 1200px and up)*/
-    @media (min-width: 1200px) {
-        .main-logo
-    }
