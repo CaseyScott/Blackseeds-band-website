@@ -11,9 +11,13 @@ body {
     overflow-y: scroll;
     overflow-x: hidden;
     width: 100%;
-    background-color: #e8fcf5;
-    min-height: 100%
+    min-height: 100%;
+    background-size: 100%;
+    background-position: left bottom;
+    background-image: linear-gradient(to right, #5151e5 0%, #FF4C4C 100%);
+   /* background-blend-mode: normal;*/
 }
+
 
 html {
     height: 100%;
@@ -21,6 +25,7 @@ html {
 
 
 /*--------------------------------------navbar*/
+
 .navbar {
     padding: 3px 8px;
     border: 1px solid transparent;
@@ -135,6 +140,7 @@ a:hover {
     color: inherit;
     text-decoration: none;
 }
+
 .hvr-fade:active,
 .hvr-fade:focus,
 .hvr-fade:hover {
@@ -145,6 +151,7 @@ a:hover {
     padding: 0;
     margin: 0;
 }
+
 .hvr-back-pulse:hover {
     background-color: #60c4db;
 }
@@ -152,7 +159,7 @@ a:hover {
 /*-------------------------------HOME-PAGE*/
 
 .main-logo {
-    background: url("../images/logo-1.png") no-repeat center center fixed;
+    background: url("../images/Logos_BlackSeeds.png") no-repeat center center fixed;
     -webkit-background-size: contain;
     -moz-background-size: contain;
     -o-background-size: contain;
@@ -173,7 +180,7 @@ a:hover {
 }
 
 .top-tracks {
-    background-color: #4f788b;
+    background-color: #5d97b2;
     color: #FFFFFF;
     text-align: center;
     border: 0px;
@@ -185,7 +192,7 @@ a:hover {
     padding: 30px 60px 30px 60px;
     margin-bottom: 30px;
     color: inherit;
-    background-color: #f5e5ad;
+    background-color: #5d97b2;
     border-radius: 6px;
     text-align: center;
     font-size: 30px;
@@ -201,6 +208,7 @@ a:hover {
 }
 
 /*-------------------------------FONTS,BUTTONS-BLOCK_DIVIDERS*/
+
 .button {
     border: solid 2px;
     border-color: #31708f;
@@ -260,7 +268,7 @@ th {
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
-    min-height: 100vh;
+    /* min-height: 100vh;*/
 }
 
 
@@ -271,7 +279,7 @@ th {
     margin-left: auto;
     margin-right: auto;
     overflow: scroll;
-    min-height: 100vh;
+    min-height: 75vh;
     width: 100%;
     margin-bottom: 20px;
     background-color: transparent;
@@ -300,7 +308,7 @@ p {
     margin-bottom: 0;
 }
 
-.blue-title{
+.blue-title {
     background-color: #4f788b;
     color: #FFFFFF;
     padding: 5px;
@@ -377,7 +385,7 @@ p {
 .imagetiles {
     margin-right: 0;
     margin-left: 0;
-    
+
 }
 
 .galleryImage {
@@ -390,7 +398,7 @@ p {
     display: block;
     margin-left: auto;
     margin-right: auto;
- }
+}
 
 /*-------------------------------BOOKINGS*/
 
@@ -408,7 +416,7 @@ p {
     margin-bottom: 0;
 }
 
-.block-divider--blue{
+.block-divider--blue {
     font-weight: 200;
     width: 55%;
 }
@@ -419,13 +427,13 @@ hr {
     border: 0;
     border-top: 1px solid #5186c1;
 }
-.options-for-booking{
+
+.options-for-booking {
     text-align: center;
 }
 
 
 /*----------------------------------Footer*/
-
 
 a:hover {
     text-decoration: none;
@@ -450,12 +458,12 @@ a:hover {
     height: 25vh;
     line-height: 2.8;
     min-height: 60px;
-  /*  position: absolute;*/
+    /*  position: absolute;*/
 }
 
 .social-media-links {
     font-size: 20px;
-    background-color: #b0a18e;
+   /* background-color: #b0a18e;*/
 }
 
 .mail-list {
@@ -475,21 +483,30 @@ a:hover {
     text-align: center;
 }
 
+.fa {
+    display: inline-block;
+    font: normal normal normal 44px/1 FontAwesome;
+    /* font-size: inherit; */
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
 /*-----------------media querys--*/
 
 @media (min-width: 767px) {
+    
     #main-header {
         height: 140px;
     }
     #test2 {
         display: none;
     }
-    
+
     .small-devices {
         display: none;
     }
-    
-     .button-small-devices {
+
+    .button-small-devices {
         height: 70px;
         width: 100%;
         margin-top: 15px;
@@ -499,20 +516,20 @@ a:hover {
         height: 70px;
         width: 100%;
     }
-    
-     #navigationbar {
+
+    #navigationbar {
         display: none;
     }
-    
+
 }
 
 @media (max-width: 767px) {
-    
+
     .navbar-bigger,
     #navbar-bigger {
         display: none;
     }
-    
+
     .navbar-toggle {
         width: 45vw;
         position: fixed;
@@ -521,8 +538,8 @@ a:hover {
         padding: 4px;
         right: 3vw;
     }
-    
- .button-small-devices {
+
+    .button-small-devices {
         height: 70px;
         width: 100%;
         margin-top: 15px;
@@ -533,4 +550,3 @@ a:hover {
         width: 100%;
     }
 }
-
