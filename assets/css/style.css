@@ -282,7 +282,7 @@ th {
     min-height: 75vh;
     width: 100%;
     margin-bottom: 20px;
-    background-color: transparent;
+   /* background-color: transparent;*/
     border-spacing: 0;
     border-collapse: collapse;
 }
