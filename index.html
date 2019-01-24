@@ -15,28 +15,75 @@
 
 <body>
     <!--Header & Navigation Bar -->
-    <nav class="navbar navbar-default col-md-8">
-        <div class="container-fluid">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+    <header class="container-fluid" id="main-header">
+            <div class="navbar-bigger" id="navbar-bigger">
+                <ul class="nav navbar-nav list-inline">
+                    <li class="button btn menu-item"><a href="index.html" class="hvr-back-pulse">
+                        <span>Home</span></a></li>
+                    <li class="button btn menu-item"><a href="tour.html" class="hvr-back-pulse">
+                        <span>Tour Dates</span></a></li>
+                    <li class="button btn menu-item"><a href="music.html" class="hvr-back-pulse">
+                        <span>Music</span></a></li>
+                    <li class="button btn menu-item"><a href="band.html" class="hvr-back-pulse">
+                        <span>The Band</span></a></li>
+                    <li class="button btn menu-item"><a href="video.html" class="hvr-back-pulse">
+                        <span>Videos</span></a></li>
+                    <li class="button btn menu-item"><a href="gallery.html" class="hvr-back-pulse">
+                        <span>Photos</span></a></li>
+                    <li class="button btn menu-item"><a href="bookings.html" class="hvr-back-pulse">
+                        <span>Bookings</span></a></li>
+                </ul>
+            </div>
+        <div class="row flex-row" id="navigationbar">
+            <div class="collapsed-button">
+                <button type="button" class="btn button hvr-back-pulse navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+                    <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
+                    <span>Menu</span>
                 </button>
+            </div>
         </div>
+        
         <div class="navbar-collapse collapse" id="navbar">
-            <ul class="nav navbar-nav options ">
-                <li class="active"><a class="hvr-grow" href="index.html">Home</a></li>
-                <li class="active"><a class="hvr-grow" href="tour.html">Tour Dates</a></li>
-                <li class="active"><a class="hvr-grow" href="music.html">Music</a></li>
-                <li class="active"><a class="hvr-grow" href="band.html">The Band</a></li>
-                <li class="active"><a class="hvr-grow" href="video.html">Videos</a></li>
-                <li class="active"><a class="hvr-grow" href="gallery.html">Photos</a></li>
-                <li class="active"><a class="hvr-grow" href="bookings.html">Bookings</a></li>
+            <ul class="nav navbar-nav list-inline clearfix" id="test2">
+                
+                <li class=" button btn menu-item">
+                    <a href="index.html" class="hvr-back-pulse">
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li class=" button btn menu-item">
+                    <a href="tour.html" class="hvr-back-pulse">
+                        <span>Tour Dates</span>
+                    </a>
+                </li>
+                <li class=" button btn menu-item">
+                    <a href="music.html" class="hvr-back-pulse">
+                        <span>Music</span>
+                    </a>
+                </li>
+                <li class=" button btn menu-item">
+                    <a href="band.html" class="hvr-back-pulse">
+                        <span>The Band</span>
+                    </a>
+                </li>
+                <li class=" button btn menu-item">
+                    <a href="video.html" class="hvr-back-pulse">
+                        <span>Videos</span>
+                    </a>
+                </li>
+                <li class=" button btn menu-item">
+                    <a href="gallery.html" class="hvr-back-pulse">
+                        <span>Photos</span>
+                    </a>
+                </li>
+                <li class=" button btn menu-item">
+                    <a href="bookings.html" class="hvr-back-pulse">
+                        <span>Bookings</span>
+                    </a>
+                </li>
             </ul>
         </div>
-    </nav>
-
+    </header>
     <!--End of header & navigation bar-->
 
     <!--callout-->
@@ -63,7 +110,7 @@
                     <p class="lead"><strong>New Zealand Tour</strong><br>
                         <strong>Touring a Town near you!</strong>
                     </p>
-                    <a href="https://www.theticketfairy.com/" target="_blank" class="button">Buy Tickets<i class="fa fa-ticket"></i></a>
+                    <a href="https://www.theticketfairy.com/" target="_blank" class="ticket-button">Buy Tickets<i class="fa fa-ticket"></i></a>
 
                 </section>
             </div>
