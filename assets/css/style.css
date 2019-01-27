@@ -15,7 +15,7 @@ body {
     background-size: 100%;
     background-position: left bottom;
     background-image: linear-gradient(to right, #5151e5 0%, #FF4C4C 100%);
-    /* background-blend-mode: normal;*/
+    
 }
 
 
@@ -45,7 +45,6 @@ html {
     position: relative;
     padding: 9px 10px;
     margin-top: 0;
-    margin-right: 10px;
 }
 
 .list-inline {
@@ -71,9 +70,7 @@ html {
 
 .navbar-collapse.in {
     overflow-y: auto;
-    float: right;
-    margin-right: 22px;
-    margin-top: 87px;
+    float: none;
 }
 
 .navbar-collapse {
@@ -82,10 +79,8 @@ html {
     overflow-x: visible;
     border-top: 1px solid transparent;
     -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
-    box-shadow: -1px 0px 14px 4px rgba(255, 255, 255, 0.28);
-    float: right;
-    margin-right: 22px;
-    margin-top: 87px;
+    box-shadow: -1px 0px 14px 4px rgba(255, 255, 255, .3);
+    float: none;
     border-radius: 5px;
 }
 
@@ -97,9 +92,9 @@ html {
 }
 
 #navigationbar {
-    margin-right: 10px;
+    margin-right: 0;
     margin-top: 14px;
-    float: right;
+    float: none;
 }
 
 #navbar-bigger {
@@ -108,12 +103,14 @@ html {
 }
 
 #navbar {
-    margin: 67px 4px;
+    margin: 60px 0px;
     padding: 0px;
+    position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
 }
 
 #navbar>.list-inline {
-    text-align: center;
     margin: 0;
     width: 100%
 }
@@ -121,7 +118,6 @@ html {
 #navbar>.list-inline li {
     display: block;
     width: 45vw;
-    margin-right: 2vw;
 }
 
 #main-header {
@@ -272,7 +268,6 @@ th {
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
-    /* min-height: 100vh;*/
 }
 
 
@@ -286,7 +281,6 @@ th {
     min-height: 75vh;
     width: 100%;
     margin-bottom: 20px;
-    /* background-color: transparent;*/
     border-spacing: 0;
     border-collapse: collapse;
 }
@@ -471,12 +465,10 @@ a:hover {
     height: 25vh;
     line-height: 2.8;
     min-height: 60px;
-    /*  position: absolute;*/
 }
 
 .social-media-links {
     font-size: 20px;
-    /* background-color: #b0a18e;*/
 }
 
 .mail-list {
@@ -511,7 +503,7 @@ a:hover {
     #main-header {
         height: 140px;
     }
-    #test2 {
+    #nav-collapse{
         display: none;
     }
 
@@ -544,12 +536,13 @@ a:hover {
     }
 
     .navbar-toggle {
-        width: 45vw;
-        position: fixed;
+        width: 48vw;
+        position: absolute;
         top: 10px;
         margin: 0px;
         padding: 4px;
-        right: 3vw;
+        left: 50%;
+        transform: translateX(-50%);
     }
 
     .button-small-devices {
