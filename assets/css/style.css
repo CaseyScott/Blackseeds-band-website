@@ -1,9 +1,5 @@
 /*----------FONTS-----*/
-
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
-
-
-
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -15,17 +11,13 @@ body {
     background-size: 100%;
     background-position: left bottom;
     background-image: linear-gradient(to right, #5151e5 0%, #FF4C4C 100%);
-    
 }
-
 
 html {
     height: 100%;
 }
 
-
 /*--------------------------------------navbar*/
-
 .navbar {
     padding: 3px 8px;
     border: 1px solid transparent;
@@ -106,8 +98,8 @@ html {
     margin: 60px 0px;
     padding: 0px;
     position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 #navbar>.list-inline {
@@ -153,8 +145,7 @@ a:hover {
 }
 
 /*-------------------------------HOME-PAGE*/
-
-.main-logo {
+.main-logo {  /*main image for home page the black seeds logo*/
     background: url("../images/Logos_BlackSeeds.png") no-repeat center center fixed;
     -webkit-background-size: contain;
     -moz-background-size: contain;
@@ -169,7 +160,7 @@ a:hover {
     margin-right: auto;
 }
 
-.top-albums {
+.top-albums { /*3x spotify music tiles*/
     margin-top: 0;
 
     text-align: center;
@@ -177,7 +168,7 @@ a:hover {
     margin-bottom: 40px;
 }
 
-.top-tracks {
+.top-tracks { /*3x spotify music tiles*/
     background-color: #5d97b2;
     color: #FFFFFF;
     text-align: center;
@@ -186,8 +177,7 @@ a:hover {
 }
 
 /*---------------------------------JUMBOTRAN*/
-
-.jumbotron {
+.jumbotron {  /*touring 2019 box*/
     padding: 30px 60px 30px 60px;
     margin-bottom: 0;
     margin-top: 0;
@@ -202,7 +192,7 @@ a:hover {
     border-top-color: #000000;
 }
 
-.divider {
+.divider { /*line divider*/
     font-weight: 200;
     width: 45%;
 }
@@ -293,20 +283,13 @@ th {
     border: 0px;
 }
 
-p {
-    margin: 0 0 10px;
-    padding-left: 5px;
-    padding-right: 5px;
-    margin-bottom: 45px;
-}
-
 .row {
     margin-right: 0;
     margin-left: 0;
     margin-bottom: 10px;
 }
 
-.blue-title {
+.blue-title { /*albums title Music tiles from spotify section*/
     background-color: #4f788b;
     color: #FFFFFF;
     padding: 5px;
@@ -316,14 +299,14 @@ p {
 }
 
 .h1,
-h1 {
+h1 { /*titles*/
     font-size: 36px;
     margin-bottom: 40px;
 }
 
 /*-------------------------------THE-BAND*/
 
-.the-band-wrapper-blue {
+.the-band-wrapper-blue { /*blue wrapper around titles*/
     background-color: #4f788b;
     color: #FFFFFF;
     padding: 5px;
@@ -335,7 +318,6 @@ h1 {
 .the-band-headline {
     font-weight: 500;
     text-align: center;
-
 }
 
 .about-the-band {
@@ -343,7 +325,7 @@ h1 {
     text-align: center;
 }
 
-.band-image {
+.band-image { /*image under write up about the band*/
     min-height: 80vh;
     background: url("../images/members.png") no-repeat center;
     -webkit-background-size: contain;
@@ -358,14 +340,15 @@ h1 {
     text-align: center;
 }
 
-.h3, h3 {
+.h3,
+h3 { /*title for the band*/
     font-size: 50px;
 }
 
 
 /*-------------------------------VIDEOS*/
 
-.youtube-links {
+.youtube-links { /*link to youtube under title*/
     font-size: 50px;
     background-color: #ff0000a3;
     width: 100%;
@@ -374,11 +357,11 @@ h1 {
 
 /*-------------------------------PHOTOS*/
 
-.section-header {
+.section-header { /*title of gallery*/
     text-align: center;
 }
 
-.photo-gallery {
+.photo-gallery { /*images*/
     align-items: center;
     display: -webkit-box;
     display: -moz-box;
@@ -395,13 +378,13 @@ h1 {
 
 }
 
-.galleryImage {
+.galleryImage { /*image sizes*/
     height: 220px;
     width: 320px;
     margin-bottom: 10px;
 }
 
-.center-block {
+.center-block { /*class center block keep images centered in smaller screen sizes*/
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -409,7 +392,7 @@ h1 {
 
 /*-------------------------------BOOKINGS*/
 
-.bookings-header {
+.bookings-header { /*title*/
     font-size: 30px;
     text-align: center;
     padding-left: 5px;
@@ -418,24 +401,24 @@ h1 {
     margin-bottom: 18px;
 }
 
-.form-group p {
+.form-group p { /*title*/
     font-size: 18px;
     margin-bottom: 0;
 }
 
-.block-divider--blue {
+.block-divider--blue { /*line divider*/
     font-weight: 200;
     width: 55%;
 }
 
-hr {
+hr { /*line divider*/
     margin-top: 20px;
     margin-bottom: 20px;
     border: 0;
     border-top: 1px solid #5186c1;
 }
 
-.options-for-booking {
+.options-for-booking { /*private gigs, garden parties etc*/
     text-align: center;
 }
 
@@ -503,7 +486,7 @@ a:hover {
     #main-header {
         height: 140px;
     }
-    #nav-collapse{
+    #nav-collapse {
         display: none;
     }
 

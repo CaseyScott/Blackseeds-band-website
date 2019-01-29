@@ -11,6 +11,8 @@ and any new material as it becomes available.
 Also, they are in the process of expanding their social media presence and would like to add links to their Facebook, Twitter and YouTube pages etc.
 
 -------------------------------------
+user stories:
+
 *As a user, I want to make contact with the band for enquiry about my wedding, i would like to contact without going through social media as my request
 could be easily missed.
 
