@@ -18,8 +18,6 @@ could be easily missed.
 
 *As a user, recently hearing 'the black seeds' for the first time i would like to watch and listen to the most popular tracks.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-•	As a user type, I want to perform an action, so that I can achieve a goal.
 -------------------------------------
 
 WireFrames

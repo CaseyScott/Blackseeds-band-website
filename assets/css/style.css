@@ -350,7 +350,7 @@ h3 { /*title for the band*/
 
 .youtube-links { /*link to youtube under title*/
     font-size: 50px;
-    background-color: #ff0000a3;
+    background-color: transparent;
     width: 100%;
     text-align: center;
 }
@@ -395,8 +395,6 @@ h3 { /*title for the band*/
 .bookings-header { /*title*/
     font-size: 30px;
     text-align: center;
-    padding-left: 5px;
-    padding-right: 5px;
     margin-top: 20px;
     margin-bottom: 18px;
 }
